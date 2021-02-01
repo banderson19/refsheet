@@ -31,3 +31,5 @@ remote: Counting objects: 100% (157/157), done.
 ***************************
 
 ssh-add KEY
+ls -al ~/.ssh
+pbcopy < ~/.ssh/id_rsa.pub
