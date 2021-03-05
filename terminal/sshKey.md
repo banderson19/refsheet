@@ -1,4 +1,4 @@
-
+# notes
 /* cd ~/"folder" */ change directly to specific folder 
 bradfords-air:uofu-virt-bo-fsf-pt-01-2021-u-b band8$ cd ~/.ssh
 bradfords-air:.ssh band8$ ls
@@ -32,4 +32,5 @@ remote: Counting objects: 100% (157/157), done.
 
 ssh-add KEY
 ls -al ~/.ssh
-pbcopy < ~/.ssh/id_rsa.pub
+$ pbcopy < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard

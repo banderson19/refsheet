@@ -1,0 +1,18 @@
+### Fetch(url).then(response) to call on api's
+var getUserRepos = function(user) {
+    //format the github api url
+    var apiUrl = "https://api.github.com/users/" + user + "/repos";
+    // make a request to the url
+    fetch(apiUrl).then(function(response){
+        // json turns response into an array
+        response.json().then(function(data) {
+            displayRepos(data, user);
+        })
+    });
+}
+getUserRepos();
+
+###  event.preventDefault(): Prevent a link from opening the URL. browser default with eventlistners
+document.getElementById("myAnchor").addEventListener("click", function(event){
+  event.preventDefault()
+});

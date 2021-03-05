@@ -1,0 +1,23 @@
+DOM manipulation within the javascript file
+- set variables top of file
+
+// declare vaiable name with matching id in html file
+var nameInputEl = document.querySelector("#username");
+
+// create a container for each repo
+var repoEl = document.createElement("div");
+
+//append container to the dom
+containerEl.appendChild(repoEl);
+
+//add inner html  <i> = icon
+statusEl.innerHTML =
+"<i class='fas fa-times status-icon icon-danger'></i>" + repos[i].open_issues_count + " issue(s)";
+
+//addEventListener by "type"(button), then function callback
+document.getElementById("myBtn").addEventListener("click", function() {
+  document.getElementById("demo").innerHTML = "Hello World";
+});
+
+
+
