@@ -11,6 +11,9 @@ git push -u origin main
 git checkout -b "branch name"
 git branch --> shows what branch were currently working in
 
+rm -rf build --> deletes build folder
+git push <remote>(origin) --delete <branch>. --> deletes remote branch
+
 git push origin feature/name
 git checkout develop
 git merge feature/name
